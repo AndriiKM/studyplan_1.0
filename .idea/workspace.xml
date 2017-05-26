@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b739c6-fe00-4f1f-822f-572ef88a42a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BottomMenuBar$2.class" afterPath="$PROJECT_DIR$/target/classes/BottomMenuBar$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BottomMenuBar$3.class" afterPath="$PROJECT_DIR$/target/classes/BottomMenuBar$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BottomMenuBar$4.class" afterPath="$PROJECT_DIR$/target/classes/BottomMenuBar$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BottomMenuBar$5.class" afterPath="$PROJECT_DIR$/target/classes/BottomMenuBar$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BottomMenuBar.class" afterPath="$PROJECT_DIR$/target/classes/BottomMenuBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CentralTable.class" afterPath="$PROJECT_DIR$/target/classes/CentralTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LeftButtonBar$1.class" afterPath="$PROJECT_DIR$/target/classes/LeftButtonBar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LeftButtonBar$2.class" afterPath="$PROJECT_DIR$/target/classes/LeftButtonBar$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LeftButtonBar$3.class" afterPath="$PROJECT_DIR$/target/classes/LeftButtonBar$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LeftButtonBar.class" afterPath="$PROJECT_DIR$/target/classes/LeftButtonBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainForm.class" afterPath="$PROJECT_DIR$/target/classes/MainForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyDataBase.class" afterPath="$PROJECT_DIR$/target/classes/MyDataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TopMenuBar.class" afterPath="$PROJECT_DIR$/target/classes/TopMenuBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/studyPlane-1.0.jar" afterPath="$PROJECT_DIR$/target/studyPlane-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BottomMenuBar.java" afterPath="$PROJECT_DIR$/src/main/java/BottomMenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CentralTable.java" afterPath="$PROJECT_DIR$/src/main/java/CentralTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LeftButtonBar.java" afterPath="$PROJECT_DIR$/src/main/java/LeftButtonBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainForm.java" afterPath="$PROJECT_DIR$/src/main/java/MainForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MyDataBase.java" afterPath="$PROJECT_DIR$/src/main/java/MyDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TopMenuBar.java" afterPath="$PROJECT_DIR$/src/main/java/TopMenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studyplan_1.0.iml" afterPath="$PROJECT_DIR$/studyplan_1.0.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,17 +28,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AlertInfo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlertInfo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlertInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="210">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopMenuBar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopMenuBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TopMenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1197">
@@ -764,7 +742,7 @@
       <workItem from="1494946519314" duration="109000" />
       <workItem from="1495006382795" duration="2323000" />
       <workItem from="1495623364358" duration="1328000" />
-      <workItem from="1495784143895" duration="13256000" />
+      <workItem from="1495784143895" duration="13403000" />
     </task>
     <task id="LOCAL-00001" summary="26.05">
       <created>1495788048155</created>
@@ -780,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495801858128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="26.05">
+      <created>1495802278496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495802278496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87423000" />
+    <option name="totallyTimeSpent" value="87570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,7 +793,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2056928" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33861834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27113062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27066818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1163,18 +1148,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AlertInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TopMenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="87" column="73" lean-forward="false" selection-start-line="87" selection-start-column="73" selection-end-line="87" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AlertInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
