@@ -46,7 +46,7 @@ public class MyDataBase {
             System.out.println("Ошибка соединения");
         }
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/studyplanbase", properties);
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/studyplanbase?useSSL=false", properties);
 
             return conn;
         } catch (SQLException e) {

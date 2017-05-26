@@ -79,7 +79,16 @@ class TopMenuBar extends Control{
 
         aboutMenuItem = new MenuItem("About", null);
         aboutMenuItem.setStyle("-fx-padding: 0 15 0 12;");
-
+        aboutMenuItem.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.setTitle("О программе...");
+                    alert.setHeaderText("Study Planner");
+                    alert.setContentText(String.valueOf("Version 1.0 \n\nCopyright 2017"));
+                    alert.showAndWait();
+            }
+        });
 
         menu3.getItems().addAll(aboutMenuItem);
 

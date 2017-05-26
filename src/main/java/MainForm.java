@@ -85,8 +85,10 @@ class MainForm {
 
     //Делаем сцену
     mainScene = new Scene(mainPanel, 1000, 800);
+    mainScene.getStylesheets().add((getClass().getResource("style.css")).toExternalForm());
     mainScene.setFill(Color.GREY);
     mainStage.setScene(mainScene);
+
 
 
     mainPanel.setTop(new TopMenuBar().launchTopMenuBar());

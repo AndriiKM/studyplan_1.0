@@ -85,11 +85,8 @@ public class CentralTable {
             getInfoStore.setStatusText(event.getNewValue());
             new MyDataBase(mainForm.getNameTable(), getInfoStore).changeStatusInCell();
 
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Информационное окно");
-            alert.setHeaderText(null);
-            alert.setContentText(MyDataBase.message);
-            alert.showAndWait();
+            new AlertInfo(MyDataBase.message).getInfoAlert();
+
 
             MainForm mainForm = new MainForm();
             mainForm.getCentralTableView().getItems().clear();

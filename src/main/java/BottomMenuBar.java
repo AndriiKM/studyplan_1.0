@@ -72,7 +72,8 @@ public class BottomMenuBar extends FlowPane{
         addAddNenu.setHgap(8);
         addAddNenu.setGridLinesVisible(false);
 
-        paneNameLabel = new Label("Добавить информацию в базу");
+        paneNameLabel = new Label("ДОБАВИТЬ В БАЗУ");
+        paneNameLabel.getStyleClass().add("paneNameLabel");
 
         mainForm = new MainForm();
         titleClass = new TitleClass(mainForm.getNameTable());
@@ -131,11 +132,7 @@ public class BottomMenuBar extends FlowPane{
 
                                                try {
                                                    data.insertInTable();
-                                                   Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                                                   alert.setTitle("Информационное окно");
-                                                   alert.setHeaderText(null);
-                                                   alert.setContentText(MyDataBase.message);
-                                                   alert.showAndWait();
+                                                   new AlertInfo(MyDataBase.message).getInfoAlert();
 
                                                    MainForm mainForm = new MainForm();
                                                    mainForm.getCentralTableView().getItems().clear();
@@ -152,12 +149,7 @@ public class BottomMenuBar extends FlowPane{
                                                addStatus.getSelectionModel().clearSelection();
 
                                            }
-                                           else {Alert alert = new Alert(Alert.AlertType.WARNING);
-                                                   alert.setTitle("Предупреждение");
-                                                   alert.setHeaderText(null);
-                                                   alert.setContentText("Вами заполнены не все поля");
-                                                   alert.showAndWait(); }
-
+                                           else new AlertInfo("Вами заполнены не все поля").getError();
                                        }
                                    });
 
@@ -175,14 +167,9 @@ public class BottomMenuBar extends FlowPane{
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.setTitle("Информационное окно");
-                alert.setHeaderText(null);
-                alert.setContentText(MyDataBase.message);
-                alert.showAndWait();
 
-
-            }
+                new AlertInfo(MyDataBase.message).getInfoAlert();
+                }
         });
 
         addAddNenu.add(paneNameLabel, 1, 0);
