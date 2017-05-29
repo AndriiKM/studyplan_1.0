@@ -46,7 +46,7 @@ public class BottomMenuBar extends FlowPane{
         bottomMain.setMaxHeight(155);
         bottomMain.setMinWidth(975);
         bottomMain.setStyle("-fx-background-color:#eeeeee; -fx-opacity:1;");
-        bottomMain.setAlignment(Pos.BASELINE_LEFT);
+        bottomMain.setAlignment(Pos.CENTER);
 
 
         //Панель даты
@@ -54,13 +54,14 @@ public class BottomMenuBar extends FlowPane{
         timePane.setMaxHeight(155);
         timePane.setMinWidth(250);
         timePane.setAlignment(Pos.CENTER);
-        timePane.setStyle("-fx-background-color:#B5B2B1; -fx-opacity:1;");
+        timePane.setStyle("-fx-background-color:#000000; -fx-opacity:1;");
 
 
         date = new Label();
         date.setText(new DateAndClock().getCurrentTimeStamp());
-
+        date.getStyleClass().add("date");
         timePane.getChildren().addAll(new DateAndClock(), date);
+
 
 
         // Панель добаления

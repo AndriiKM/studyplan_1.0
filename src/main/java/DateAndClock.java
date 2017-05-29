@@ -1,6 +1,8 @@
 import javafx.animation.*;
 import javafx.event.*;
+import javafx.geometry.Pos;
 import javafx.scene.control.Label;
+import javafx.scene.paint.Color;
 import javafx.util.Duration;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -24,6 +26,7 @@ class DateAndClock extends Label {
                                 String secondString = StringUtilities.pad(2, '0', time.get(Calendar.SECOND) + "");
                                 String ampmString = time.get(Calendar.AM_PM) == Calendar.AM ? "AM" : "PM";
                                 setText(hourString + ":" + minuteString + ":" + secondString + " " + ampmString);
+                                getStyleClass().add("date");
                             }
                         }
                 ),

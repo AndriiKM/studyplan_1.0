@@ -5,3 +5,10 @@
     -fx-font-size: 10pt;
     -fx-font-weight: bold ;
 }
+
+.date {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: aliceblue;
+    -fx-text-alignment: center;
+}
