@@ -2,6 +2,7 @@ import javafx.geometry.Insets;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
 import javafx.scene.control.TableView;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.FlowPane;
@@ -70,6 +71,7 @@ class MainForm {
 
     //Настроить стейдж
     mainStage.setTitle("Study Plan");
+    mainStage.getIcons().add(new Image("sp.png"));
     mainStage.setResizable(false);
     mainStage.setWidth(1000);
     mainStage.setHeight(800);
