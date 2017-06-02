@@ -14,5 +14,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mysql-connector-java-5.1.42-bin" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.42-bin1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.42" level="project" />
   </component>
 </module>
